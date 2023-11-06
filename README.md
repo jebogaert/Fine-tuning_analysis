@@ -2,7 +2,8 @@ This repository is related to the paper [Fine-Tuning is not (Always) Overfitting
 
 ## Code ##
 To run the code, launch the notebook "Code esann.ipynb". The structure of the code is the same as the one of the paper.  
-To launch it on my workstation, i usually run: TODO
+To launch it on my workstation, i usually run: 
+```CUBLAS_WORKSPACE_CONFIG=:16:8 PYTHONHASHSEED=42 nice jupyter notebook```
 
 ## Datasets ##
 The available datasets are:
@@ -21,6 +22,7 @@ The visualizations are provided by the method presented in [Fast Multiscale Neig
 ## Cite our paper ##
 If you make use of our work, please cite our paper:
 
+```
 @InProceedings{Bogaert_2023_ESANN,
     author    = {Bogaert, Jeremie and Jean, Emmanuel and De Bodt, Cyril and Standaert, François-Xavier},
     title     = {Fine-tuning is not (always) overfitting},
@@ -29,5 +31,5 @@ If you make use of our work, please cite our paper:
     year      = {2023},
     pages     = {}
 }
-
+```
 
